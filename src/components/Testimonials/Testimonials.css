@@ -1,0 +1,32 @@
+.testimonials {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}

@@ -1,0 +1,138 @@
+.tracks {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+  padding-top: 150px;
+}
+
+.tracks h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.tracks p {
+  font-size: 18px;
+  color: #666;
+  margin: 10px 0 40px;
+}
+
+.track-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  font-family: "Poppins";
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #000000;
+  margin: 2px 0;
+  text-align: left;
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.card .price {
+  color: #ff7426;
+  font-weight: bold;
+  margin-bottom: 1px dotted gray;
+}
+
+.dotted-line {
+  border-top: 2px dotted gray;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.card button {
+  padding: 10px 20px;
+  background-color: #ff7426;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 96px;
+  font-size: 25px;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablets and larger mobile phones */
+@media (max-width: 1024px) {
+  .tracks h2 {
+    font-size: 30px;
+  }
+
+  .tracks p {
+    font-size: 16px;
+  }
+
+  .card {
+    max-width: 400px;
+    padding: 15px;
+  }
+
+  .card h3 {
+    font-size: 22px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .card button {
+    font-size: 22px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 600px) {
+  .tracks h2 {
+    font-size: 24px;
+  }
+
+  .tracks p {
+    font-size: 14px;
+  }
+
+  .card {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .card h3 {
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .card button {
+    font-size: 20px;
+  }
+
+  .dotted-line {
+    margin: 15px 0;
+  }
+}
